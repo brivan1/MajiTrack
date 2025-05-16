@@ -25,7 +25,7 @@ img {
 header {
     background: #0ba3df;
     padding: 0.5em 0;
-    background-image: url("../static/img/water_bubbles.jpg");
+    background-image: url("../img/water_bubbles.jpg");
 }
 .navigation{
     display: flex;
