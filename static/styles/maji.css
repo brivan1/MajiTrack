@@ -25,6 +25,10 @@ header {
     background: #0ba3df;
     padding: 0.5em 0;
     background-image: url("../img/water_bubbles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    padding: 1em 0;
 }
 .navigation{
     display: flex;
@@ -53,7 +57,8 @@ header {
     color: rgb(0, 0, 0);
     background-image: url("../img/Aguatrack\ logo.jpg");
     background-size: cover;
-    /* background-blend-mode: hard-light; */
+    background-repeat: no-repeat;
+    
 }
 
 .btn--home{
@@ -80,10 +85,14 @@ header {
 .features{
     padding: 3em 0;
     background-image: url("../img/rapid_river.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+    padding: 5em;
 
 }
 .section-title--two{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     justify-self: right;
     font-size: 2.5em;
     color: #1d440b;
@@ -129,4 +138,32 @@ section{
     
 }.col + .col{
     margin-left: 1em;
+}
+footer{
+    background: #0ba3df;
+    padding: 1em 0;
+    background-image: url("../img/water_bubbles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
+}
+@media (max-width : 868px){
+    .feature-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .row{
+        display: block;
+    }
+    .section-title--two{
+        justify-self: center;
+        color: #ffffff;
+    }
+}
+@media (max-width : 624px){
+    .feature-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .app-feature{
+        width: 100%;
+    }
 }
