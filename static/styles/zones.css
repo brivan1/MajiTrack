@@ -1,0 +1,124 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+}
+.container {
+    width: 85%;
+    max-width: 1100px;
+    margin: 0 auto;
+    /* border: 2px solid#824936; */
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background: #0ba3df;
+    padding: 1em 0;
+    background-image: url("../static/img/water_bubbles.jpg");
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+}
+.nav_list {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.nav__list--primary{
+    margin: 0 auto;
+}
+.nav-item + .nav-item {
+    margin-left: 1em;
+}
+.nav-link{
+    color: rgb(3, 3, 3);
+    text-decoration: none;
+    /* background-color: #0ba3df; */
+    border-radius: 5px;
+    padding: .25em;
+
+}
+.Home{
+    background-image: url("../static/img/cooling-tower.jpg");
+    padding: 25em;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+    background-color: #fce8e6;
+    margin: 0;
+    padding: 20px;
+}
+.zones-title{
+    text-align: center;
+}
+.zones-title h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: -100px 0 0 0;
+    font-size: 2.5em;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.zones_maps{
+    background-color: rgba(152, 158, 157, 0.678);
+    padding-bottom: 1em;
+}
+.zones-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: repeat(3, 1fr); */
+    /*grid-template-areas: 
+    "a b c"
+    "d e f"
+    "g h i";*/
+    gap: 1em;
+    margin-top: 80px;
+    margin-bottom: 0;
+
+}
+.zone-info{
+    box-shadow: 10px 10px 10px #00000069;
+    align-items: center;
+    padding: 2em;
+    overflow: hidden;
+    background-color: rgb(12, 124, 124);
+    border-radius: 20px;
+    color: #ffffff;
+}
+.zone_map{
+    width: 100%;
+    transform: scale(1);
+    transition: 0.5s all;
+}
+.zone_map:hover{
+    transform: scale(1.2);
+}
+.zone-info h2{
+    text-align: center;
+    font-family: sans-serif;
+}
+.footer{
+
+}
+#zones_text{
+    text-align: left;
+    margin: 50px 0 0 0;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    padding-top: 2em;
+}
+
+
