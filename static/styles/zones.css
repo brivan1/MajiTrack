@@ -19,7 +19,10 @@ body {
 header {
     background: #0ba3df;
     padding: 1em 0;
-    background-image: url("../img/water_bubbles.jpg");
+    background-image: url("../static/img/water_bubbles.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: hard-light;
 }
 .navigation{
     display: flex;
@@ -47,7 +50,7 @@ header {
 
 }
 .Home{
-    background-image: url("../img/distributionpipes.jpeg");
+    background-image: url("../static/img/distributionpipes.jpeg");
     padding: 25em;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -60,14 +63,23 @@ header {
     text-align: center;
 }
 .zones-title h1{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    margin: -100px 0 0 0;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* left: 50%; */
+    /* transform: translate(-50%, -50%); */
+    /* margin: -100px 0 0 0; */
     font-size: 2.5em;
     color: #ffffff;
     font-family: sans-serif;
+    text-align: center;
+}
+.zones-title p{
+    font-size: 1rem;
+    color: #ffffff;
+    font-family: sans-serif;
+    background-color: #0ba3df;
+    border-radius: 5px;
+    padding: .5em;
 }
 img{
     max-width: 100%;
@@ -113,7 +125,7 @@ img{
 footer{
     background: #0ba3df;
     padding: 1em 0;
-    background-image: url("../img/water_bubbles.jpg");
+    background-image: url("..static/img/water_bubbles.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
