@@ -82,7 +82,7 @@ img{
 }
 .zones_maps{
     background-color: rgba(226, 236, 235, 0.678);
-    padding-bottom: 1em;
+    padding: 1em;
 }
 .zones-grid{
     display: grid;
