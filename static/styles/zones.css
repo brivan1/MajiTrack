@@ -19,7 +19,7 @@ body {
 header {
     background: #0ba3df;
     padding: 1em 0;
-    background-image: url("../static/img/water_bubbles.jpg");
+    background-image: url("../img/water_bubbles.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
@@ -50,7 +50,7 @@ header {
 
 }
 .Home{
-    background-image: url("../static/img/distributionpipes.jpeg");
+    background-image: url("../img/distributionpipes.jpeg");
     padding: 25em;
     background-repeat: no-repeat;
     background-position: bottom center;
@@ -125,7 +125,7 @@ img{
 footer{
     background: #0ba3df;
     padding: 1em 0;
-    background-image: url("../static/img/water_bubbles.jpg");
+    background-image: url("../img/water_bubbles.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
