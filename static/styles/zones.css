@@ -125,7 +125,7 @@ img{
 footer{
     background: #0ba3df;
     padding: 1em 0;
-    background-image: url("..static/img/water_bubbles.jpg");
+    background-image: url("../static/img/water_bubbles.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
