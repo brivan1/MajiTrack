@@ -63,11 +63,7 @@ header {
     text-align: center;
 }
 .zones-title h1{
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
-    /* margin: -100px 0 0 0; */
+
     font-size: 2.5em;
     color: #ffffff;
     font-family: sans-serif;
@@ -85,7 +81,7 @@ img{
     max-width: 100%;
 }
 .zones_maps{
-    background-color: rgba(152, 158, 157, 0.678);
+    background-color: rgba(226, 236, 235, 0.678);
     padding-bottom: 1em;
 }
 .zones-grid{
