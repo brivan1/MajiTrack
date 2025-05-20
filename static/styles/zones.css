@@ -51,13 +51,13 @@ header {
 }
 .Home{
     background-image: url("../img/distributionpipes.jpeg");
-    padding: 25em;
+    padding: 3em;
     background-repeat: no-repeat;
-    background-position: bottom center;
+    background-position: center;
     background-size: cover;
     background-color: #fce8e6;
     margin: 0;
-    padding: 20px;
+
 }
 .zones-title{
     text-align: center;
