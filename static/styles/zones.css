@@ -76,6 +76,7 @@ header {
     font-family: sans-serif;
     background-color: #0ba3df;
     border-radius: 5px;
+    opacity: 0.8;
     padding: .5em;
 }
 img{
