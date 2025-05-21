@@ -159,11 +159,11 @@ footer{
         color: #ffffff;
     }
 }
-@media (max-width : 624px){
+/* @media (max-width : 624px){
     .feature-grid{
         grid-template-columns: repeat(1, 1fr);
     }
     .app-feature{
         width: 100%;
     }
-}
+} */
