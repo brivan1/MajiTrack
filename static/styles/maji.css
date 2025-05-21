@@ -147,7 +147,7 @@ footer{
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
 }
-@media (max-width : 868px){
+/* @media (max-width : 868px){
     .feature-grid{
         grid-template-columns: repeat(2, 1fr);
     }
@@ -158,7 +158,7 @@ footer{
         justify-self: center;
         color: #ffffff;
     }
-}
+} */
 /* @media (max-width : 624px){
     .feature-grid{
         grid-template-columns: repeat(1, 1fr);
