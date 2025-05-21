@@ -21,6 +21,7 @@ header {
     padding: 1em 0;
     background-image: url("../img/water_bubbles.jpg");
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
 }
@@ -53,7 +54,7 @@ header {
     background-image: url("../img/distributionpipes.jpeg");
     padding: 3em;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     background-color: #fce8e6;
     margin: 0;
@@ -124,6 +125,7 @@ footer{
     background-image: url("../img/water_bubbles.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     background-blend-mode: hard-light;
 }
 #zones_text{
@@ -132,6 +134,41 @@ footer{
     font-size: 1.2em;
     font-family: sans-serif;
     padding-top: 2em;
+}
+@media (max-width: 630px){
+    .Home{
+        background-position: center center;
+    }
+    .zones-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px){
+    .Home{
+        background-position: top center;
+        background-size: cover;
+        padding: 2em 0;
+    }
+    .zones-grid{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .navigation{
+        flex-direction: column; /* Stack navigation items */
+        align-items: center;
+    }
+    .nav_list {
+        flex-direction: column; /* Stack list items */
+        width: 100%; /* Make list full width */
+        text-align: center;
+        margin-top: 1em;
+    }
+    .nav-item + .nav-item {
+        margin-left: 0;
+        margin-top: 0.5em; /* Add vertical spacing between stacked nav items */
+    }
+    .row{
+        display: block;
+    }
 }
 
 
