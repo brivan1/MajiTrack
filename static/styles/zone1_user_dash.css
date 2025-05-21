@@ -8,7 +8,7 @@ body {
     background-color: #1c98e0;
 }
 .container {
-    width: 85%;
+    width: 95%;
     max-width: 1100px;
     margin: 0 auto;
     /* border: 2px solid#824936; */
@@ -26,7 +26,8 @@ header {
     background: #0ba3df;
     padding: 0.5em 0;
     background-image: url("../img/water_bubbles.jpg");
-     background-size: cover;
+    background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     background-blend-mode: hard-light;
 }
@@ -95,7 +96,67 @@ footer{
     background-image: url("../img/water_bubbles.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
     background-blend-mode: hard-light;
 }
 
+/* Media Queries for Responsiveness */
 
+/* Small devices (e.g., mobile phones, up to 767px) */
+@media (max-width: 680px) {
+    body {
+        font-size: 1rem; /* Slightly smaller font for very small screens */
+    }
+    header footer{
+        padding: 0.5em 0; /* Adjusted padding for smaller screens */
+        background-position: center center;
+        background-size: cover;
+    }
+    .container {
+        width: 95%; /* Increase container width for more content space */
+    }
+    .row {
+        flex-direction: column; /* Stack elements vertically */
+        /* Center elements horizontally */
+    }
+    .navigation {
+        flex-direction: column; /* Stack navigation items */
+        align-items: center;
+    }
+    .nav_list {
+        flex-direction: column; /* Stack main and secondary nav lists */
+        width: 100%;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .nav-item {
+        margin-left: 0 !important; /* Override inline margin-left for stacked items */
+        margin-top: 0em; /* Add vertical spacing */
+    }
+    .nav-item:first-child {
+        margin-top: 0;
+    }
+    
+
+    /* Main content area adaptation */
+    .user_interface .container.row {
+        flex-direction: column; /* Stack sidebar and map vertically */
+        align-items: center; /* Center them when stacked */
+    }
+    .user_sidebar,
+    .zone1_map {
+        width: 85%; /* Make both sidebar and map take almost full width */
+        margin-left: 0; /* Reset margins */
+        margin-right: 0;
+        margin-bottom: 2em; /* Add space between stacked elements */
+    }
+    ul{
+        text-align: center;
+    }
+    .user_sidebar {
+        margin-top: 1em; /* Adjust top margin for sidebar */
+    }
+    .zone1_map img {
+        max-width: 100%; /* Ensure map image fits within its new width */
+    }
+}
