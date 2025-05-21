@@ -144,6 +144,9 @@ section{
 }.col + .col{
     margin-left: 1em;
 }
+.col img{
+    border-radius: 50%;
+}
 footer{
     background: #0ba3df;
     padding: 1em 0;
