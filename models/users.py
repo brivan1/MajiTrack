@@ -13,4 +13,4 @@ class User:
         self.registration_date = registration_date
         self.phone_number_2 = phone_number_2
         self.account_balance = account_balance
-    
+        
