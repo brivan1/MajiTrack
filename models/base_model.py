@@ -2,12 +2,12 @@
 from datetime import datetime
 import uuid
 
-class Basemodel():
+class Basemodel:
     def __init__(self,**kwargs):
         if len(kwargs) == 0:
             self.id = str(uuid.uuid4())
-            self.created_at = datetime.datetime.now()
-            self.updated_at = datetime.datetime.now()
+            self.created_at = datetime.now()
+            self.updated_at = datetime.now()
         else:
             for key, value in kwargs.items():
                 if key == "created_at" or key == "updated_at":
