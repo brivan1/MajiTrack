@@ -7,4 +7,4 @@ class Zone:
         self.description = description
         self.latitude = latitude
         self.longitude = longitude
-        
+    

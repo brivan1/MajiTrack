@@ -32,3 +32,4 @@ class Notification:
             'status': self.status,
             'message': self.message
         }
+    
