@@ -19,17 +19,4 @@ class Notification:
         # via email, push notification, etc.
         print(f"Sending notification to {self.recipient}: {self.message}")
         return True
-    def to_dict(self):
-        """Converts the notification object to a dictionary."""
-        return {
-            'notification_id': self.notification_id,
-            'notification_type': self.notification_type,
-            'recipient_user_id': self.recipient_user_id,
-            'recipient_zone_id': self.recipient_zone_id,
-            'send_to_all': self.send_to_all,
-            'created_at': self.created_at,
-            'sent_at': self.sent_at,
-            'status': self.status,
-            'message': self.message
-        }
     
